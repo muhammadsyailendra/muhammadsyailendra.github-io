@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    height: 50px;
+}
+
+.containernav{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+nav img{
+    width: 35px;
+    margin-top: 5px;
+    float: left;
+}
+
+nav h1{
+    font-family: "poppins";
+    float: left;
+    color: #6f5fdb;
+    line-height: 50px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;   
+    padding: 0 15px;
+    position: relative;
+}
+
+nav ul li a{
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "poppins";
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+nav ul li .intro{
+    color: #6f5fdb;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: #6f5fdb;
+}
+
+nav ul ul{
+    position: absolute;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    display: none;
+}
+
+nav ul ul li{
+    line-height: 0px;
+}
+
+nav ul ul li a:hover{
+    color: #6f5fdb;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.deskripsi{
+    font-family: "poppins";
+    width: 500px;
+    float: left;
+}
+
+.perkenalan{
+    margin-top: 150px;
+    height: 450px;
+}
+
+.nama{
+    font-size: 45px;
+}
+
+.status{
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.definisi{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.cari{
+    padding: 10px;
+    background-color: #6f5fdb;
+    color: white;
+    font-family: "poppins";
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.cari:hover{
+    background-color: #5346ac;
+}
+
+.fotoprofil{
+    margin-top: -100px;
+    float: right;
+    width: 400px;
+    margin-right: 70px;
+}
+
+.pengalaman{
+    background-color: #6f5fdb;
+    height: 410px;
+    width: 100%;
+}
+
+.container2{
+    width: 90%;
+    margin: auto;
+}
+
+.container2 h1{
+    color: white;
+    font-family: "poppins";
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.video{
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    height: 250px;
+    float: left;
+    margin-right: 40px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
+}
+.fotografi, .desain, .web{
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    height: 250px;
+    float: left;
+    margin-right: 40px;
+    width: 260px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
+}
+
+.video img, .web img{
+    width: 220px;
+    text-align: center;
+    padding: 20px 20px 5px 20px;
+}
+
+.fotografi img, .desain img{
+    width: 190px;
+    text-align: center;
+    padding: 20px 20px 5px 30px;
+}
+
+.web img{
+    width: 170px;
+    text-align: center;
+    padding: 20px 20px 5px 40px;
+}
+
+.video h3, .video p, .fotografi h3, .fotografi p, .desain h3, .desain p, .web h3, .web p{
+    font-family: "poppins";
+    color: rgb(61, 61, 61);
+    text-align: center;
+}
+
+.video h3, .fotografi h3, .desain h3, .web h3{
+    font-size: 30px;
+}
+
+.video p, .fotografi p, .desain p, .web p{
+    font-size: 13px;
+    font-weight: 500;
+}
